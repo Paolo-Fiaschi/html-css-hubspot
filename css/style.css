@@ -16,14 +16,98 @@ body{
   display: table;
   clear: both;
 }
+button:hover{
+  cursor: pointer;
+}
 /* header --------------------------*/
 header{
   /* debug */
   height: 200px;
-  background-color: #f5f8fa;
+  /* end debug */
+}
+.pre-nav-left a,
+.pre-nav-left a:link,
+.pre-nav-left a:visited,
+.search a,
+.search a:link,
+.search a:visited{
+  color: #33475b;
+  text-decoration: none;
+}
+.pre-nav-right .log-in a,
+.pre-nav-right .log-in a:link,
+.pre-nav-right .log-in a:visited{
+  color: #ff7a59;
+  text-decoration: none;
+}
+.pre-nav-right .get-hubspot-free a,
+.pre-nav-right .get-hubspot-free a:link,
+.pre-nav-right .get-hubspot-free a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+.pre-nav-right .get-hubspot-free:hover{
+background-color:#ffbcac;
+}
+.pre-nav-right .log-in:hover{
+background-color:#fff1ee;
+}
+.pre-nav-right a:hover{
+  text-decoration:
 }
 /* pre-nav */
-.prenav{
+.pre-nav{
   background-color: #f5f8fa;
-
+  min-height: 80px;
+  border-bottom: 1px solid #cbd6e2;
+  position: fixed;
+  width: 100%;
+}
+/* pre-nav left --------*/
+.pre-nav-left{
+  float: left;
+  width: 43%;
+  padding: 20px 150px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.globe{
+  padding-right: 5px;
+}
+.english{
+  border-right: 2px solid #cbd6e2;
+  padding: 15px;
+}
+.contact-sales {
+margin-left: 7%;
+}
+/* pre-nav right --------*/
+.pre-nav-right{
+  float: right;
+  width: 50%;
+  padding: 20px 150px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.search{
+  padding-right: 20px;
+}
+.log-in{
+  background-color: #fff;
+  border: 1px solid #ff7a59;
+  color: #ff7a59;
+  padding: 10px;
+  font-size: .75rem;
+  font-weight: 500;
+  min-width: 5.888rem;
+  border-radius: 3px;
+}
+.get-hubspot-free{
+  background-color: #ff7a59;
+  color: #fff;
+  padding: 10px;
+  font-size: .75rem;
+  font-weight: 500;
+  min-width: 5.888rem;
+  border-radius: 3px;
 }
