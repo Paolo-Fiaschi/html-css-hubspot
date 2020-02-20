@@ -21,11 +21,6 @@ button:hover{
   cursor: pointer;
 }
 /* header -----------------------------------------------*/
-header{
-  /* debug */
-  height: 200px;
-  /* end debug */
-}
 /* pre-nav --------------------------------------*/
 .pre-nav{
   background-color: #f5f8fa;
@@ -60,7 +55,8 @@ header{
   color: #fff;
   text-decoration: none;
 }
-.pre-nav-right .get-hubspot-free:hover{
+.pre-nav-right .get-hubspot-free:hover,
+.hubspot-presentation button:hover{
 background-color:#ffbcac;
 }
 .pre-nav-right .log-in:hover{
@@ -115,7 +111,7 @@ margin-left: 7%;
   font-size: .75rem;
   font-weight: 500;
   min-width: 5.888rem;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 /* main nav ----------------------------*/
 .main-nav{
@@ -140,5 +136,44 @@ nav img{
   padding: 0 18px;
   font-size: 19px;
   letter-spacing: 0.5px;
-
+}
+/* main -------------------------------------------------------------*/
+/* section jumbotron ----------------------------------*/
+.jumbotron{
+  height: 745px;
+  width: 100%;
+  background-image: url(../img/jumbotron.png);
+  background-size:100% 100%;
+}
+.hubspot-presentation{
+  float: left;
+  width: 50%;
+  padding: 85px 150px;
+}
+h1{
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
+  font-size: 47px;
+  line-height: 60px;
+}
+.hubspot-presentation p{
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  padding-bottom: 20px;
+}
+.hubspot-presentation button{
+  background-color: #ff7a59;
+  color: #fff;
+  padding: 25px 41px;
+  font-size: 1rem;
+  font-weight: 500;
+  min-width: 5.888rem;
+  border-radius: 5px;
+  margin-bottom: 17px;
+}
+.hubspot-presentation span{
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 51%;
 }
