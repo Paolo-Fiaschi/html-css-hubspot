@@ -1,0 +1,29 @@
+/* generale */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-size: 100%;
+  font-weight: 400;
+  color: #33475b;
+  line-height: 1.611em;
+  font-style: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+/* header --------------------------*/
+header{
+  /* debug */
+  height: 200px;
+  background-color: #f5f8fa;
+}
+/* pre-nav */
+.prenav{
+  background-color: #f5f8fa;
+
+}
