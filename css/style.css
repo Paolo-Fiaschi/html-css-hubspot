@@ -177,3 +177,59 @@ h1{
   line-height: 1.5;
   width: 51%;
 }
+/* section hubspot-offert ----------------------------*/
+.hubspot-offert{
+  background-color: #f5f8fa;
+}
+/* div offert-title -----------------*/
+
+.offert-title{
+  text-align: center;
+  width: 100%;
+  padding: 20px 150px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.offert-title img{
+  max-width: 200px;
+  padding-top: 100px;
+}
+.offert-title h2{
+  font-size: 35px;
+  line-height: 1.3125em;
+  padding-bottom: 20px;
+}
+.offert-title p{
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  padding: 0px 162px;
+}
+/* div free-hubspot -----------------*/
+.free-hubspot{
+  width: 80%;
+  background-color: #fff;
+  margin: 85px 150px;
+  padding: 40px 100px;
+}
+.get-free{
+  float: left;
+  width: 50%;
+}
+.get-free img{
+  max-width: 200px;
+  /* display: inline-block; */
+}
+.get-free button{
+  display: block;
+  background-color: #ff7a59;
+  color: #fff;
+  padding: 16px 33px;
+  font-size: .75rem;
+  font-weight: 500;
+  min-width: 5.888rem;
+  border-radius: 5px;
+  margin-left: 6%;
+}
+.get-free-info{
+  float: left;
+}
