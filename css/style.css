@@ -10,6 +10,7 @@ body{
   color: #33475b;
   line-height: 1.611em;
   font-style: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  padding-top:80px;
 }
 .clearfix::after{
   content: "";
@@ -19,18 +20,31 @@ body{
 button:hover{
   cursor: pointer;
 }
-/* header --------------------------*/
+/* header -----------------------------------------------*/
 header{
   /* debug */
   height: 200px;
   /* end debug */
+}
+/* pre-nav --------------------------------------*/
+.pre-nav{
+  background-color: #f5f8fa;
+  height: 80px;
+  border-bottom: 1px solid #cbd6e2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .pre-nav-left a,
 .pre-nav-left a:link,
 .pre-nav-left a:visited,
 .search a,
 .search a:link,
-.search a:visited{
+.search a:visited,
+.main-nav-right a,
+.main-nav-right a:link,
+.main-nav-right a:visited{
   color: #33475b;
   text-decoration: none;
 }
@@ -55,14 +69,6 @@ background-color:#fff1ee;
 .pre-nav-right a:hover{
   text-decoration:
 }
-/* pre-nav */
-.pre-nav{
-  background-color: #f5f8fa;
-  min-height: 80px;
-  border-bottom: 1px solid #cbd6e2;
-  position: fixed;
-  width: 100%;
-}
 /* pre-nav left --------*/
 .pre-nav-left{
   float: left;
@@ -81,7 +87,7 @@ background-color:#fff1ee;
 .contact-sales {
 margin-left: 7%;
 }
-/* pre-nav right --------*/
+/* pre-nav right ----------*/
 .pre-nav-right{
   float: right;
   width: 50%;
@@ -110,4 +116,29 @@ margin-left: 7%;
   font-weight: 500;
   min-width: 5.888rem;
   border-radius: 3px;
+}
+/* main nav ----------------------------*/
+.main-nav{
+  min-height: 80px;
+  width: 100%;
+}
+nav img{
+  float: left;
+  padding: 33px 150px;
+}
+.main-nav-right{
+  float: right;
+  width: 63%;
+  padding: 20px 96px;
+
+}
+.main-nav-right ul{
+  padding: 18px 0;
+}
+.main-nav-right ul li{
+  display: inline-block;
+  padding: 0 18px;
+  font-size: 19px;
+  letter-spacing: 0.5px;
+
 }
