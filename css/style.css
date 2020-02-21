@@ -252,9 +252,6 @@ h1{
 hr{
   /* display: inline-block; */
 }
-.get-free-info ul{
-  float: left;
-}
 .get-free-info ul li{
   display: inline-block;
   padding-right: 18px;
@@ -264,12 +261,58 @@ hr{
   color: #ff7a59;
   padding: 5px;
 }
+/* marketing-sales-service-container ------*/
+.marketing-sales-service-container{
+  width: 80%;
+  margin: 85px 150px;
+}
+
 /* div marketing --------------------*/
 .marketing{
   width: 33.3%;
   float: left;
+  background-color: #fff;
+  padding: 40px 40px;
+
 }
 /* div marketing-info ----------*/
-.marketing-info img{
+.marketing-info img,
+.sales-info img,
+.service-info img{
   max-width: 200px;
+  padding-top: 30px;
+  margin-left: 16.5%;
+}
+.marketing-info h3{
+  text-align: center;
+  padding-top: 20px;
+}
+.marketing-info p{
+  padding-bottom: 20px;
+}
+.marketing-features h4{
+  padding-top: 20px;
+  border-top: 1px solid #e0e6ed;
+  text-align: center;
+}
+.marketing-features ul{
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.marketing-features ul li{
+  display: inline-block;
+  padding-right: 18px;
+  letter-spacing: 0.5px;
+}
+.marketing-features button{
+  display: block;
+  background-color: #ff7a59;
+  color: #fff;
+  padding: 16px 33px;
+  font-size: .75rem;
+  font-weight: 500;
+  width: 50%;
+  border-radius: 5px;
+  margin-left: 20%;
 }
