@@ -10,7 +10,6 @@ body{
   color: #33475b;
   line-height: 1.611em;
   font-style: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
-  padding-top:80px;
 }
 .clearfix::after{
   content: "";
@@ -61,7 +60,9 @@ h3{
   text-decoration: none;
 }
 .pre-nav-right .get-hubspot-free:hover,
-.hubspot-presentation button:hover{
+.hubspot-presentation button:hover,
+.get-free button:hover,
+.marketing-features button:hover{
 background-color:#ffbcac;
 }
 .pre-nav-right .log-in:hover{
@@ -122,6 +123,7 @@ margin-left: 7%;
 .main-nav{
   min-height: 80px;
   width: 100%;
+  padding-top: 80px;
 }
 nav img{
   float: left;
@@ -145,7 +147,7 @@ nav img{
 /* main -------------------------------------------------------------*/
 /* section jumbotron ----------------------------------*/
 .jumbotron{
-  height: 745px;
+  min-height: 745px;
   width: 100%;
   background-image: url(../img/jumbotron.png);
   background-size:100% 100%;
@@ -166,7 +168,7 @@ h1{
   letter-spacing: 0.5px;
   padding-bottom: 20px;
 }
-.hubspot-presentation button{
+.hubspot-presentation button {
   background-color: #ff7a59;
   color: #fff;
   padding: 25px 41px;
@@ -265,7 +267,6 @@ hr{
 .marketing-sales-service-container{
   width: 82%;
   margin: 85px 150px;
-  height: 200px;
 }
 
 /* div marketing --------------------*/
@@ -275,6 +276,7 @@ hr{
   background-color: #fff;
   padding: 40px 40px;
   margin-right: 2%;
+  min-height: 750px;
 
 }
 /* div marketing-info ----------*/
@@ -298,8 +300,7 @@ hr{
   text-align: center;
 }
 .marketing-features ul{
-  padding-top: 10px;
-  padding-bottom: 35px;
+  padding: 10px 30px 35px 0;
 }
 
 .marketing-features ul li{
@@ -317,4 +318,56 @@ hr{
   width: 50%;
   border-radius: 5px;
   margin-left: 20%;
+}
+/* section learning ------------------------------*/
+.learning{
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+  color: white;
+  text-align: center;
+}
+/* div learn-grow -------------------*/
+.learn-grow h2{
+  padding: 79px 354px 27px;
+  font-size: 35px;
+  line-height: 1.3125em
+}
+.learn-grow p{
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  padding: 0px 352px;
+}
+/* div learn-info -------------------*/
+.learn-info{
+  /* debug */
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 70px;
+}
+.learn-info-cube{
+  width: 25%;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  min-height: 200px;
+  float: left;
+}
+.learn-info-cube img{
+  padding-top: 20px;
+}
+.learn-info-cube h2{
+  font-size: 40px;
+  letter-spacing: 4px;
+  padding: 10px 0 20px;
+}
+.learn-info-cube h2 span{
+  font-size: 18px;
+  font-weight: lighter;
+  vertical-align: middle;
+  display: inline-block;
+  padding-bottom: 9px;
+}
+.learn-info-cube p{
+  font-size: 19px;
+}
+.no-border{
+  border-right: none;
 }
