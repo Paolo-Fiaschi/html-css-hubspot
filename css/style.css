@@ -55,21 +55,22 @@ h3{
 }
 .pre-nav-right .get-hubspot-free a,
 .pre-nav-right .get-hubspot-free a:link,
-.pre-nav-right .get-hubspot-free a:visited{
+.pre-nav-right .get-hubspot-free a:visited,
+.start-hubspot-now a,
+.start-hubspot-now a:link,
+.start-hubspot-now a:visited{
   color: #fff;
   text-decoration: none;
 }
 .pre-nav-right .get-hubspot-free:hover,
 .hubspot-presentation button:hover,
 .get-free button:hover,
-.marketing-features button:hover{
+.marketing-features button:hover,
+.start-hubspot-now button:hover{
 background-color:#ffbcac;
 }
 .pre-nav-right .log-in:hover{
 background-color:#fff1ee;
-}
-.pre-nav-right a:hover{
-  text-decoration:
 }
 /* pre-nav left --------*/
 .pre-nav-left{
@@ -240,19 +241,19 @@ h1{
   float: left;
   width: 70%;
 }
-/* .get-free-info h3{
-  font-size: 20px;
-  line-height: 1.3125em;
-  padding-bottom: 20px;
-} */
 .popular-features{
   padding: 20px 0;
   float: left;
-  width: 100%;
+  width: 25%;
   font-weight: bolder;
 }
 hr{
-  /* display: inline-block; */
+  float: right;
+  width: 74%;
+  margin-top: 30px;
+  height: 1px;
+  border: none;
+  background-color: #f5f8fa;
 }
 .get-free-info ul li{
   display: inline-block;
@@ -277,7 +278,12 @@ hr{
   padding: 40px 40px;
   margin-right: 2%;
   min-height: 750px;
-
+}
+.height-fixed{
+  height: 430px;
+}
+.height-fixed-title{
+  margin-top: 41px;
 }
 /* div marketing-info ----------*/
 .marketing-info img,
@@ -373,7 +379,7 @@ hr{
 .no-border-bottom{
   border-bottom: none;
 }
-/* section cpstumers -----------------------------*/
+/* section costumers -----------------------------*/
 /* div N costumers -------------------*/
 .n-costumers{
   float: left;
@@ -401,4 +407,47 @@ hr{
   width: 35%;
   margin-right: 15%;
   margin-top: 101px;
+}
+/* section start-HubSpot -----------------------------------*/
+/* div start-HubSpot-now --------------------*/
+.start-hubspot-now{
+  float: left;
+  width: 35%;
+  margin-left: 15%;
+  margin-top: 11%;
+}
+.start-hubspot-now h2{
+  font-size: 35px;
+  line-height: 1.3125em;
+  padding-bottom: 20px;
+  }
+.start-hubspot-now p:nth-child(2){
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  padding: 0 5% 5% 0;
+}
+.start-hubspot-now button{
+  display: block;
+  background-color: #ff7a59;
+  color: #fff;
+  padding: 16px 33px;
+  font-size: .75rem;
+  font-weight: 500;
+  min-width: 5.888rem;
+  border-radius: 5px;
+}
+.start-hubspot-img{
+  float: left;
+  width: 23%;
+  height: 379px;
+  margin-top: 8%;
+  margin-left: 14%;
+}
+.start-hubspot-img{
+background-image: url(../img/ragazza.jpg);
+background-size: 100% 100%;
+}
+.start-hubspot-now p:nth-child(4){
+  font-size: 15px;
+  padding-top: 5%;
 }
