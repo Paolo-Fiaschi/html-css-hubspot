@@ -215,7 +215,7 @@ h1{
 .free-hubspot{
   width: 80%;
   background-color: #fff;
-  margin: 85px 150px;
+  margin: 85px 150px 33px;
   padding: 40px 100px;
 }
 .get-free{
@@ -266,7 +266,7 @@ hr{
 /* marketing-sales-service-container ------*/
 .marketing-sales-service-container{
   width: 82%;
-  margin: 85px 150px;
+  margin: 0px 150px 85px;
 }
 
 /* div marketing --------------------*/
@@ -338,7 +338,6 @@ hr{
 }
 /* div learn-info -------------------*/
 .learn-info{
-  /* debug */
   width: 80%;
   margin-left: 10%;
   margin-top: 70px;
@@ -368,6 +367,38 @@ hr{
 .learn-info-cube p{
   font-size: 19px;
 }
-.no-border{
+.no-border-right{
   border-right: none;
+}
+.no-border-bottom{
+  border-bottom: none;
+}
+/* section cpstumers -----------------------------*/
+/* div N costumers -------------------*/
+.n-costumers{
+  float: left;
+  width: 35%;
+  margin-left: 15%;
+  margin-top: 70px;
+}
+.n-costumers h2{
+  font-size: 45px;
+  line-height: 1.3125em;
+  letter-spacing: 2px;
+}
+.n-costumers p{
+  font-size: 22px;
+  letter-spacing: 0.5px;
+  padding-right: 140px;
+  line-height: 29px;
+}
+.n-costumers p span{
+  font-weight: bolder;
+}
+/* div who costumers -------------------*/
+.who-costumers{
+  float: left;
+  width: 35%;
+  margin-right: 15%;
+  margin-top: 101px;
 }
