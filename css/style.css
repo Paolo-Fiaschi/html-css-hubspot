@@ -263,16 +263,18 @@ hr{
 }
 /* marketing-sales-service-container ------*/
 .marketing-sales-service-container{
-  width: 80%;
+  width: 82%;
   margin: 85px 150px;
+  height: 200px;
 }
 
 /* div marketing --------------------*/
 .marketing{
-  width: 33.3%;
+  width: 31.3%;
   float: left;
   background-color: #fff;
   padding: 40px 40px;
+  margin-right: 2%;
 
 }
 /* div marketing-info ----------*/
