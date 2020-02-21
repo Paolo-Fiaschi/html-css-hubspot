@@ -20,6 +20,11 @@ body{
 button:hover{
   cursor: pointer;
 }
+h3{
+  font-size: 20px;
+  line-height: 1.3125em;
+  padding-bottom: 20px;
+}
 /* header -----------------------------------------------*/
 /* pre-nav --------------------------------------*/
 .pre-nav{
@@ -213,11 +218,10 @@ h1{
 }
 .get-free{
   float: left;
-  width: 50%;
+  width: 30%;
 }
 .get-free img{
   max-width: 200px;
-  /* display: inline-block; */
 }
 .get-free button{
   display: block;
@@ -232,4 +236,40 @@ h1{
 }
 .get-free-info{
   float: left;
+  width: 70%;
+}
+/* .get-free-info h3{
+  font-size: 20px;
+  line-height: 1.3125em;
+  padding-bottom: 20px;
+} */
+.popular-features{
+  padding: 20px 0;
+  float: left;
+  width: 100%;
+  font-weight: bolder;
+}
+hr{
+  /* display: inline-block; */
+}
+.get-free-info ul{
+  float: left;
+}
+.get-free-info ul li{
+  display: inline-block;
+  padding-right: 18px;
+  letter-spacing: 0.5px;
+}
+.check{
+  color: #ff7a59;
+  padding: 5px;
+}
+/* div marketing --------------------*/
+.marketing{
+  width: 33.3%;
+  float: left;
+}
+/* div marketing-info ----------*/
+.marketing-info img{
+  max-width: 200px;
 }
