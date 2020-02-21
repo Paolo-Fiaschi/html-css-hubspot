@@ -482,6 +482,15 @@ footer{
   color:#cbd6e2;
   text-decoration: none;
 }
+.icon{
+  float: right;
+  margin-right: 18%;
+}
+.support {
+  margin-right: 9%;
+}
+
+
 .support button{
   margin: 2% 5% 1%;
   text-align: center;
@@ -492,8 +501,5 @@ footer{
   font-size: .75rem;
   font-weight: 500;
   min-width: 5.888rem;
-  float: right;
-}
-.icon{
   float: right;
 }
