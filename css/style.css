@@ -451,3 +451,49 @@ background-size: 100% 100%;
   font-size: 15px;
   padding-top: 5%;
 }
+/* FOOTER -----------------------------------------*/
+footer{
+  background-color: #33475b;
+  height: 500px;
+  color: white;
+}
+.footer-main-nav{
+  width: 80%;
+  margin:auto;
+}
+.nav-footer{
+  width: 19%;
+  float: left;
+  padding-top: 10%;
+  margin-left: 6%;
+}
+.nav-footer h3{
+  font-size: 20px;
+  line-height: 1.3125em;
+}
+.nav-footer ul li{
+  display:block;
+  padding: 4% 0 0;
+}
+
+.nav-footer a,
+.nav-footer a:link,
+.nav-footer a:visited{
+  color:#cbd6e2;
+  text-decoration: none;
+}
+.support button{
+  margin: 2% 5% 1%;
+  text-align: center;
+  border-radius: .1875rem;
+  background-color: #fff;
+  color: #33475b;
+  padding: 1%;
+  font-size: .75rem;
+  font-weight: 500;
+  min-width: 5.888rem;
+  float: right;
+}
+.icon{
+  float: right;
+}
