@@ -33,6 +33,7 @@ h3{
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 100;
   width: 100%;
 }
 .pre-nav-left a,
@@ -282,6 +283,11 @@ hr{
   margin-right: 2%;
   min-height: 750px;
 }
+.marketing:hover{
+box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
+transform: scale(1.01);
+transition: 0.5s;
+}
 .height-sales img{
   width: 190px;
 }
@@ -385,6 +391,7 @@ hr{
 }
 .no-border-right{
   border-right: none;
+  padding-top: 1%;
 }
 .no-border-bottom{
   border-bottom: none;
