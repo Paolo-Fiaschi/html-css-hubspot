@@ -9,7 +9,7 @@ body{
   font-weight: 400;
   color: #33475b;
   line-height: 1.611em;
-  font-style: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 .clearfix::after{
   content: "";
@@ -282,6 +282,13 @@ hr{
   margin-right: 2%;
   min-height: 750px;
 }
+.height-sales img{
+  width: 190px;
+}
+.height-service img{
+  width: 150px;
+}
+
 .height-fixed{
   height: 430px;
 }
@@ -406,10 +413,14 @@ hr{
 }
 /* div who costumers -------------------*/
 .who-costumers{
+  float: right;
+  width: 43%;
+  margin-right: 7%;
+  margin-top: 7%;
+}
+.costumers-cube{
   float: left;
-  width: 35%;
-  margin-right: 15%;
-  margin-top: 101px;
+  width: 25%;
 }
 /* section start-HubSpot -----------------------------------*/
 /* div start-HubSpot-now --------------------*/
@@ -558,5 +569,5 @@ footer{
   font-size: 19px;
 }
 .privacy span{
-  margin-left: 16%;
+  margin-left: 14%;
 }
