@@ -11,6 +11,18 @@ body{
   line-height: 1.611em;
   font-family: "AvenirNext","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.widget{
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 101;
+  font-size: 30px;
+  background-color: rgb(66, 91, 118);
+  border-radius: 50%;
+  color: white;
+  padding: 0.9%;
+  cursor: pointer;
+}
 .clearfix::after{
   content: "";
   display: table;
@@ -283,7 +295,8 @@ hr{
   margin-right: 2%;
   min-height: 750px;
 }
-.marketing:hover{
+.marketing:hover,
+.free-hubspot:hover{
 box-shadow: 0 10px 50px -5px rgba(51,71,91,0.12);
 transform: scale(1.01);
 transition: 0.5s;
@@ -475,7 +488,7 @@ background-size: 100% 100%;
 /* FOOTER -----------------------------------------*/
 footer{
   background-color: #33475b;
-  height: 900px;
+  height: 700px;
   color: white;
 }
 .footer-main-nav{
