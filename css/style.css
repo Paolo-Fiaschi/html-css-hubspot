@@ -38,14 +38,17 @@ h3{
 .pre-nav-left a,
 .pre-nav-left a:link,
 .pre-nav-left a:visited,
-.search a,
-.search a:link,
-.search a:visited,
 .main-nav-right a,
 .main-nav-right a:link,
 .main-nav-right a:visited{
   color: #33475b;
   text-decoration: none;
+}
+.search a,
+.search a:link,
+.search a:visited{
+color:#7fd1de;
+text-decoration: none;
 }
 .pre-nav-right .log-in a,
 .pre-nav-right .log-in a:link,
@@ -454,7 +457,7 @@ background-size: 100% 100%;
 /* FOOTER -----------------------------------------*/
 footer{
   background-color: #33475b;
-  height: 500px;
+  height: 900px;
   color: white;
 }
 .footer-main-nav{
@@ -484,7 +487,7 @@ footer{
 }
 .icon{
   float: right;
-  margin-right: 18%;
+  margin-right: 13%;
 }
 .support {
   margin-right: 9%;
@@ -502,4 +505,58 @@ footer{
   font-weight: 500;
   min-width: 5.888rem;
   float: right;
+}
+.icon span{
+  padding-right: 2px;
+  font-size: 21px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  line-height: 36px;
+  min-height: 36px;
+  min-width: 36px;
+}
+.footer-main-nav ul li a:hover,
+.icon span:hover,
+.languages ul li:hover,
+.privacy span:hover{
+  color: #7fd1de;
+}
+.languages{
+  border-bottom: 1px solid white;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 19px;
+}
+.languages ul:first-child{
+  margin-left: 6%;
+}
+.languages ul li{
+  display:inline-block;
+  padding: 5% 2%;
+}
+.copy{
+  width: 80%;
+  margin: auto;
+}
+
+.logo{
+  float: left;
+  padding-top: 2%;
+}
+.logo span{
+  display: block;
+}
+.logo img{
+  margin-left: -4%;
+}
+.privacy{
+  float: right;
+  padding-top: 3%;
+  width: 26%;
+  font-size: 19px;
+}
+.privacy span{
+  margin-left: 16%;
 }
