@@ -36,6 +36,9 @@ h3{
   line-height: 1.3125em;
   padding-bottom: 20px;
 }
+:hover{
+  cursor: pointer;
+}
 /* header -----------------------------------------------*/
 /* pre-nav --------------------------------------*/
 .pre-nav{
@@ -102,9 +105,33 @@ background-color:#fff1ee;
 .english{
   border-right: 2px solid #cbd6e2;
   padding: 15px;
+  display: inline;
 }
 .contact-sales {
 margin-left: 7%;
+}
+.menu-languages{
+  float: left;
+  display: none;
+  position: fixed;
+  top: 11%;
+  left: 11%;
+  background-color: white;
+  border: 1px solid #cbd6e2;
+  padding: 1%;
+  z-index: 105;
+  width: 8.4%;
+}
+/* .english:hover{
+display: inline-block;
+z-index: 106;
+} */
+.menu-languages ul{
+  list-style-type: none;
+  padding: 7%;
+}
+.menu-languages ul li{
+  padding-bottom: 8%;
 }
 /* pre-nav right ----------*/
 .pre-nav-right{
@@ -362,7 +389,7 @@ transition: 0.5s;
 }
 /* div learn-grow -------------------*/
 .learn-grow h2{
-  padding: 79px 354px 27px;
+  padding: 79px 349px 27px;
   font-size: 35px;
   line-height: 1.3125em
 }
