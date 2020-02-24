@@ -39,6 +39,7 @@ h3{
   font-size: 20px;
   line-height: 1.3125em;
   padding-bottom: 20px;
+  width: 105%;
 }
 :hover{
   cursor: pointer;
@@ -112,33 +113,36 @@ background-color:#fff1ee;
   display: inline;
 }
 .contact-sales {
-margin-left: 7%;
+  margin-left: 7%;
+  display: inline-block;
 }
 .menu-languages{
   float: left;
-  /* display: none; */
-  position: fixed;
-  top: 11%;
-  left: 11%;
+  display: none;
+  position: absolute;
+  top: 102%;
+  left: 13%;
   background-color: white;
   border: 1px solid #cbd6e2;
-  z-index: 105;
-  width: 9.4%;
-  padding: 2%;
+  width: 88.4%;
+  padding: 17%;
 }
-.english .menu-languages:hover{
-display: block;
-z-index: 106;
+.english:hover .menu-languages{
+  display: inline-block;
 }
 
 .menu-languages a{
   display: block;
   margin-bottom: 8%;
 }
+.menu-languages a:hover{
+  background-color: #e5f5f8;
+}
+
 /* pre-nav right ----------*/
 .pre-nav-right{
   float: right;
-  width: 50%;
+  width: 45%;
   padding: 20px 150px;
   font-size: 18px;
   letter-spacing: 0.5px;
@@ -177,7 +181,7 @@ nav img{
 }
 .main-nav-right{
   float: right;
-  width: 63%;
+  width: 66%;
   padding: 20px 96px;
 
 }
@@ -190,6 +194,177 @@ nav img{
   font-size: 19px;
   letter-spacing: 0.5px;
 }
+/* menu tendina software------------*/
+.software-menu{
+  float: left;
+  display: none;
+  position: absolute;
+  top:149%;
+  left: -208%;
+  background-color: white;
+  border: 1px solid #cbd6e2;
+  width: 800px;
+  padding: 40%;
+  text-align: center;
+}
+.main-nav-right .software:hover .software-menu{
+  display: block;
+}
+.first-row{
+  padding-bottom: 3%;
+}
+.first-row:hover{
+  background-color: #e5f5f8;
+}
+
+.menu-p,
+.about-menu ul li{
+  font-size: 12px;
+}
+.menu-cube{
+  float: left;
+  width: 33.3%;
+  border-top: 1px solid #cbd6e2;
+  border-bottom: 1px solid #cbd6e2;
+  padding: 3%;
+  margin-bottom: 3%;
+}
+.menu-cube:hover{
+  background-color: #e5f5f8;
+}
+.third-row span{
+  background-color: #00bda5;
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: .1875rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+.third-row h3, .third-row p {
+  display: inline;
+}
+.third-row p{
+  padding-left: 3%;
+}
+.third-row:hover{
+  background-color: #e5f5f8;
+}
+.third-row{
+  padding: 2%;
+}
+
+/* menu tendina resources*/
+.relative{
+  position: relative;
+}
+.resources-menu{
+  float: left;
+  display: none;
+  position: absolute;
+  top:149%;
+  left: -400%;
+  border: 1px solid #cbd6e2;
+  background-color: white;
+  width: 900px;
+  padding: 2%;
+  text-align: center;
+}
+.border{
+  border-bottom: 1px solid #cbd6e2;
+}
+.rclearfix:first-child{
+  border-top: none;
+}
+.resources-menu span{
+  background-color: #00bda5;
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: 700;
+  padding: 0.25rem 0.5rem;
+  border-radius: .1875rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-right: 5px;
+  display: inline;
+  vertical-align: top;
+}
+.service-hub h3{
+  display: inline-block;
+  padding-right: 3%;
+}
+.menu-cube-resources{
+  float: left;
+  width: 33.3%;
+  padding: 3% 3%;
+}
+.menu-cube-resources:hover{
+  background-color: #e5f5f8;
+}
+
+.main-nav-right .resources:hover .resources-menu{
+  display: block;
+}
+/* menu tendina partners*/
+.partners-menu{
+  float: left;
+  display: none;
+  position: absolute;
+  top:149%;
+  left: -480%;
+  background-color: white;
+  border: 1px solid #cbd6e2;
+  width: 650px;
+  padding: 2%;
+  text-align: center;
+}
+.main-nav-right .partners:hover .partners-menu{
+  display: block;
+}
+.menu-cube-partners{
+  float: left;
+  width: 50%;
+  padding: 3% 3%;
+}
+.menu-cube-partners:hover{
+  background-color: #e5f5f8;
+}
+
+/* menu tendina about*/
+.about-menu{
+  display: none;
+  position: absolute;
+  top:149%;
+  left: -739%;
+  background-color: white;
+  border: 1px solid #cbd6e2;
+  width: 621px;
+  padding: 40%;
+}
+.main-nav-right .about:hover .about-menu{
+  display: block;
+}
+
+.general{
+  float: left;
+  width: 33.3%;
+}
+.about-menu ul li{
+  display: block;
+  padding-bottom: 3%;
+}
+.about-menu h3{
+  padding: 3% 7% 0;
+}
+.about-menu ul li:hover{
+  background-color: #e5f5f8;
+}
+
+
 /* main -------------------------------------------------------------*/
 /* section jumbotron ----------------------------------*/
 .jumbotron{
@@ -255,13 +430,13 @@ h1{
 .offert-title p{
   font-size: 19px;
   letter-spacing: 0.5px;
-  padding: 0px 162px;
+  padding: 0px 143px;
 }
 /* div free-hubspot -----------------*/
 .free-hubspot{
   width: 80%;
   background-color: #fff;
-  margin: 85px 150px 33px;
+  margin: 54px 150px 33px;
   padding: 40px 100px;
 }
 .get-free{
@@ -381,7 +556,7 @@ transition: 0.5s;
   font-weight: 500;
   width: 50%;
   border-radius: 5px;
-  margin-left: 20%;
+  margin-left: 23%;
 }
 /* section learning ------------------------------*/
 .learning{
@@ -405,6 +580,7 @@ transition: 0.5s;
   width: 80%;
   margin-left: 10%;
   margin-top: 70px;
+  padding-bottom: 8%;
 }
 .learn-info-cube{
   width: 25%;
@@ -563,7 +739,7 @@ footer{
   padding: 1%;
   font-size: .75rem;
   font-weight: 500;
-  min-width: 5.888rem;
+  min-width: 11.888rem;
   float: right;
 }
 .icon span{
