@@ -205,13 +205,14 @@ nav img{
   border: 1px solid #cbd6e2;
   width: 800px;
   padding: 40%;
-  text-align: center;
 }
 .main-nav-right .software:hover .software-menu{
   display: block;
 }
 .first-row{
   padding-bottom: 3%;
+  text-align: center;
+
 }
 .first-row:hover{
   background-color: #e5f5f8;
@@ -272,7 +273,6 @@ nav img{
   background-color: white;
   width: 900px;
   padding: 2%;
-  text-align: center;
 }
 .border{
   border-bottom: 1px solid #cbd6e2;
@@ -323,7 +323,6 @@ nav img{
   border: 1px solid #cbd6e2;
   width: 650px;
   padding: 2%;
-  text-align: center;
 }
 .main-nav-right .partners:hover .partners-menu{
   display: block;
