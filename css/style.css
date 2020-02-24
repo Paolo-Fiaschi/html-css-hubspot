@@ -258,7 +258,7 @@ nav img{
   padding: 2%;
 }
 
-/* menu tendina resources*/
+/* menu tendina resources-----------------*/
 .relative{
   position: relative;
 }
@@ -294,8 +294,11 @@ nav img{
   vertical-align: top;
 }
 .service-hub h3{
-  display: inline-block;
+  display: inline;
   padding-right: 3%;
+}
+.service-hub p{
+  padding-top: 8%;
 }
 .menu-cube-resources{
   float: left;
