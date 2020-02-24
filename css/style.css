@@ -23,6 +23,10 @@ body{
   padding: 0.9%;
   cursor: pointer;
 }
+.widget:hover{
+  font-size: 60px;
+  transition: 1s;
+}
 .clearfix::after{
   content: "";
   display: table;
@@ -112,26 +116,24 @@ margin-left: 7%;
 }
 .menu-languages{
   float: left;
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 11%;
   left: 11%;
   background-color: white;
   border: 1px solid #cbd6e2;
-  padding: 1%;
   z-index: 105;
-  width: 8.4%;
+  width: 9.4%;
+  padding: 2%;
 }
-/* .english:hover{
-display: inline-block;
+.english .menu-languages:hover{
+display: block;
 z-index: 106;
-} */
-.menu-languages ul{
-  list-style-type: none;
-  padding: 7%;
 }
-.menu-languages ul li{
-  padding-bottom: 8%;
+
+.menu-languages a{
+  display: block;
+  margin-bottom: 8%;
 }
 /* pre-nav right ----------*/
 .pre-nav-right{
